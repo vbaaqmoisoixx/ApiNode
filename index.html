@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Painel Admin</h2>
+
+    <div class="admin">
+      <section class="add" style="display: inline-flex; gap: 20px; flex-direction: column;">
+        <input id="nome" placeholder="Nome do Template" />
+
+        <input id="img" placeholder="URL da imagem" />
+
+        <textarea id="html" placeholder="HTML"></textarea>
+        <textarea id="css" placeholder="CSS"></textarea>
+        <textarea id="js" placeholder="JS"></textarea>
+
+        <button onclick="salvarTemplate()">Salvar Template</button>
+      </section>
+    
+    </div>
+
+    <hr style="margin: 20px 0; border: 4px solid #161616"/>
+
+    <div id="cards"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
