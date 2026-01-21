@@ -10,7 +10,7 @@ app.use(routes);
 
 app.get("/", (req, res) => {
     res.send(
-      "<h1>API de Templates</h1><p>Acesse <a href='http://localhost:3000/templates'>/templates</a> para ver os templates disponíveis.</p>"
+      "<h1>API de Templates</h1><p>Acesse <a href='https://apinode-p1pz.onrender.com/templates'>/templates</a> para ver os templates disponíveis.</p>"
     );
 })
 
@@ -18,5 +18,5 @@ app.get("/", (req, res) => {
 
 
 app.listen(3000, () => {
-  console.log("API rodando em http://localhost:3000");
+  console.log("API rodando em https://apinode-p1pz.onrender.com/");
 });
