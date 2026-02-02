@@ -1,6 +1,6 @@
 
 async function carregarTemplates() {
-  const res = await fetch("https://apinode-p1pz.onrender.com/templates");
+  const res = await fetch("https://apinode-37ns.onrender.com/templates");
   const templates = await res.json();
 
   const container = document.getElementById("cards");
@@ -49,7 +49,7 @@ async function salvarTemplate() {
     js_template: js
   };
 
-  await fetch("https://apinode-p1pz.onrender.com/templates", {
+  await fetch("https://apinode-37ns.onrender.com/templates", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
