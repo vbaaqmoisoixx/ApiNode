@@ -18,5 +18,5 @@ app.get("/", (req, res) => {
 
 
 app.listen(3000, () => {
-  console.log("API rodando em https://apinode-p1pz.onrender.com/");
+  console.log("API rodando em https://apinode-37ns.onrender.com");
 });
